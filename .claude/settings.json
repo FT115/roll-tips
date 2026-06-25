@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pygame; print\\('pygame version:', pygame.version.ver\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c \"import py_compile; py_compile.compile\\('teleprompter.py', doraise=True\\); py_compile.compile\\('config.py', doraise=True\\); print\\('Syntax OK'\\)\")"
+    ]
+  }
+}
